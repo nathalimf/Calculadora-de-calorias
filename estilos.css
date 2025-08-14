@@ -8,9 +8,71 @@
   font-family: system-ui;
 }
 
-body {
+.containerh1 {
+  background-color: #841C26;
+  border-radius: 5px;
+  padding: 15px;
+  justify-content: space-between;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
+.containerh1 h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+/* ajuste de margem entre titulo e input/select*/
+
+#genero {
+  margin-top: 10px;
+}
+
+#peso {
+  margin-top: 10px;
+}
+
+#idade {
+  margin-top: 10px;
+}
+
+#altura {
+  margin-top: 10px;
+}
+
+#atv_fisica {
+  margin-top: 10px;
+}
+
+/* selects e inputs */
+
+select, input {
+  border: 2px solid #4E0012;
+  border-radius: 5px;
+  padding: 7px;
+  width: 70%;
+  
+}
+
 
