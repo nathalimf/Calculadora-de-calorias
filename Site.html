@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <h1>Calculadora de gasto calórico</h1>
+</head>
+<body>
+  <div class="sexo">
+    <p>Gênero</p>
+    <select name="informe do sexo" id="sexo">
+      <option value="Fem">Feminino</option>
+      <option value="Masc">Masculino</option>
+    </select>
+  </div>
+  <div class="idade">
+    <p>Idade (anos)</p>
+    <label for="idade"></label>
+    <input type="number" id="idade" name="idadeusuario" placeholder="Informe a sua idade" min="0" max="150">
+  </div>
+  <div class="peso">
+    <p>Peso (kg)</p>
+    <input type="number" id="peso" name="peso" placeholder="Informe o seu peso" min="0">
+  </div>
+  <div class="altura">
+    <p>Altura (cm)</p>
+    <input type="number" id="altura" name="alturausuario" placeholder="Informe a sua altura" min="0">
+  </div>
+  <div clas="atv_fisica">
+    <p>Nível de atividade física</p>
+    <select name="atividade" id="atv_fisica">
+      <option value="sedentario">Sedentário</option>
+      <option value="lev-ativo">Levemente ativo</option>
+      <option value="ativo">Ativo</option>
+      <option value="muito-ativo">Muito ativo</option>
+    </select>
+  </div>
+  <button id="botao" onclick="pagina2">Calcular</button>
+</body>
+</html>
