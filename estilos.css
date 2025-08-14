@@ -75,4 +75,12 @@ select, input {
   
 }
 
-
+button {
+  padding: 10px;
+  margin: 0px;
+  background-color: #670A13;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+}
